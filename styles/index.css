@@ -1,0 +1,9 @@
+.index {
+	background-image: url(../images/tvnami3.png);
+	background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 931px;
+}
