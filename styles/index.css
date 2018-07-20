@@ -1,9 +1,45 @@
-.index {
-	background-image: url(../images/tvnami3.png);
+/*.index-background {
+	background-image: url(../images/tvnami4.png);
 	background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
     min-height: 931px;
+    z-index: 0;
+}
+
+.shop-background {
+	min-height: 947px;
+	background-image: url(../images/90swall.jpg);
+}
+*/
+
+.main-background {
+	min-height: 947px;
+	background-image: url(../images/90swall.jpg);
+}
+
+.tv-index {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.filmstrip {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+#logo-container {
+	z-index: 9999;
+}
+
+@media screen and (max-width: 931px) {
+	.index-background {
+		background-image: url(../images/90swall.jpg);
+	}
 }
