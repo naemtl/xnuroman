@@ -34,6 +34,54 @@
     padding-top: 5px;
 }
 
+.about-window {
+	/*position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 4px ridge;
+    border-color: #ececec #d3d3d3;
+    box-shadow: 4px 4px 10px 0 rgba(0,0,0,0.50);
+    background: #bbbdc0;
+}
+
+.about-window-status {
+	display: flex;
+    width: 100%;
+    height: 28px;
+    cursor: pointer;
+    background: #bbbdc0;
+    border-bottom: 4px ridge;
+    border-color: #ececec #d3d3d3;
+}
+
+.about-window-title {
+	padding: 2px 14px 2px 5px;
+    height: 24px;
+    text-transform: uppercase;
+    font-family: "FixedsysExcelsior301Regular";
+    font-size: 15px;
+    cursor: pointer;
+    flex-grow: 1;
+    border: 1px;
+    border-style: outset;
+    border-color: #ececec #c0c0c0;
+    background: #bbbdc0;
+    color: rgba(75,75,75,0.8);
+    text-shadow: 0.5px 0.5px 1px #ececec, 0 0 0 #000, 0.5px 0.5px 1px #ececec;
+    text-align: center;
+}
+
+.about-window-content {
+    padding: 2px 14px 2px 5px;
+}
+
+.padding-top {
+	padding-top: 10px;
+}
+
 #logo-container {
 	z-index: 9999;
 }
