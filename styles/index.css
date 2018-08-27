@@ -1,20 +1,3 @@
-/*.index-background {
-	background-image: url(../images/tvnami4.png);
-	background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-    background-size: cover;
-    overflow: hidden;
-    min-height: 931px;
-    z-index: 0;
-}
-
-.shop-background {
-	min-height: 947px;
-	background-image: url(../images/90swall.jpg);
-}
-*/
-
 .main-background {
 	min-height: 947px;
 	background-image: url(../images/90swall.jpg);
